@@ -1,6 +1,6 @@
 <project name="lab8" default="run" basedir=".">
     <!-- set global properties for this build -->
-    <property name="src" location="src"/>
+    <property name="src" location="lab8/src"/>
     <property name="build" location="build"/>
     <property name="dist" location="dist"/>
     <property name="javadoc" location="javadoc"/>
