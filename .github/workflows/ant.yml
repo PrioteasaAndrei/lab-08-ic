@@ -23,3 +23,8 @@ jobs:
         distribution: 'temurin'
     - name: Build with Ant
       run: ant -noinput -buildfile build.xml
+    - name: Deploy jar
+      uses: actions/upload-artifact@v3.0.0
+      with:
+        name: lab8.jar
+        path: out/artifacts/lab8_jar/lab8.jar
