@@ -31,5 +31,5 @@ jobs:
     - name: Deploy javadoc
       uses: actions/upload-artifact@v3.0.0
       with:
-        name: lab8.jar
+        name: index.html
         path: index.html
