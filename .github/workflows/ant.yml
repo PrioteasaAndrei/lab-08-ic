@@ -28,3 +28,8 @@ jobs:
       with:
         name: lab8.jar
         path: out/artifacts/lab8_jar/lab8.jar
+    - name: Deploy javadoc
+      uses: actions/upload-artifact@v3.0.0
+      with:
+        name: lab8.jar
+        path: index.html
